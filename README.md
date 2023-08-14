@@ -18,5 +18,6 @@ Instructions for Using this Code Repository:
 4. Run mrp.model (optionally mrp_model_new_course)
 
 5. Run mrp_predict_lime
+    a) be aware that lime value calculation on all tasks take a significant amount of time and RAM. It may be necessary to break the parquet file down into smaller chunks based on specific tasks to prevent crashes.
 
 6. The resulting lime_values.parquet file can be used for dashboarding/analytics
