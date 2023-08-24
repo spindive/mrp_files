@@ -36,4 +36,5 @@ Then, it trains a CNN-LSTM model to predict correctness on each .py row of the f
 ![Alt text](image-1.png)
 
 <h2>Authors</h2>
+
 * Felix Li
